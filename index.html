@@ -2,3 +2,11 @@
 <link rel="stylesheet" href="ballsack.css">
 <h1>Weezered</h1>
 <script src="/scripts/uisp.js"></script>
+<script>
+  function ballsack() {
+        const sound = new Audio('/silly.mp3');
+        sound.loop = true;
+        sound.play();
+      }
+      window.addEventListener('load', ballsack);
+</script>
