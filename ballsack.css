@@ -3,3 +3,12 @@ h1 {
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
+
+
+.ballscka {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
