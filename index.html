@@ -6,7 +6,9 @@
   function ballsack() {
         const aihf = new Audio('silly.mp3');
         aihf.loop = true;
-        aihf.play();
+        document.addEventListener('click', function() {
+            sound.play();
+          }, { once: true });
       }
       ballsack();
       window.addEventListener('load', ballsack);
